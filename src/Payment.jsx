@@ -10,7 +10,7 @@ function App() {
       alert("Please enter an amount here.....");
     } else {
       if (typeof window.Razorpay === "undefined") {
-        alert("Razorpay SDK failed to load. ");
+        alert("Razorpay SDK failed to load............ ");
         return;
       }
 
