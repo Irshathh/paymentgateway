@@ -7,10 +7,10 @@ function App() {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (amount === "") {
-      alert("Please enter an amount");
+      alert("Please enter an amount here.....");
     } else {
       if (typeof window.Razorpay === "undefined") {
-        alert("Razorpay SDK failed to load. Please check your internet connection.");
+        alert("Razorpay SDK failed to load. ");
         return;
       }
 
